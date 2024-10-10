@@ -15,14 +15,14 @@ export default function Home() {
         <div className="w-full h-screen home-bg bg-cover bg-no-repeat bg-center bg-fixed flex items-center justify-center">
           <div className=" flex flex-col items-center gap-3 p-4 backgrop-bg-filter shadow-lg rounded-lg">
             <img
-              src="/media/logo.png"
+              src="/logo.jpg"
               alt="logo"
               title="logo"
-              className=" w-56 h-auto"
+              className=" w-60 h-auto rounded-md"
             />
             <div className=" max-w-screen-xl w-full px-5 md:px-10 flex flex-col items-end justify-end text-center text-white">
               <h1 className=" text-5xl md:text-7xl font-bold  max-w-2xl text-shadow drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
-                Hi, I'm Space Coin
+                Hi, I'm Larva Meme
               </h1>
               <p>
                 -Halloween is almost here, join us and our pets in celebrating
@@ -82,7 +82,7 @@ export default function Home() {
         <div className=" w-full max-w-screen-xl flex flex-col gap-12">
           <div className=" max-w-screen-lg w-full">
             <h2 className="font-semibold text-4xl md:text-6xl my-3">
-              Space Coin COMMUNITY
+              Larva Meme COMMUNITY
             </h2>
             <p className=" text-2xl md:text-3xl">
               In the end, what really matters is the strength of the community.

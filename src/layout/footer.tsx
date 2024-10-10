@@ -9,11 +9,7 @@ export default function Footer() {
         <footer className="text-white">
           <div className="flex flex-col justify-center w-full md:flex-row md:justify-between border-y border-[#A1A9AE] mt-20 py-20">
             <div className="flex flex-col gap-5 justify-center items-center">
-              <img
-                src={"/media/logo.png"}
-                alt="space-coin"
-                className="w-32 h-auto"
-              />
+              <img src={"/logo.jpg"} alt="larva meme" className="w-32 h-auto" />
             </div>
             <div className="flex gap-24 mt-9 md:mt-0 justify-center">
               <div className="flex flex-col gap-5">

@@ -4,4 +4,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://spacecoin.io/sitemap.xml
+Sitemap: https://larva.meme/sitemap.xml
