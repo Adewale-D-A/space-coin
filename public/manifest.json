@@ -1,6 +1,6 @@
 {
-  "short_name": "Larva Meme",
-  "name": "Larva Meme",
+  "short_name": "Parrot Meme",
+  "name": "Parrot Meme",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -22,5 +22,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "Larva Meme - Your everyday meme"
+  "description": "Parrot Meme - Your everyday meme"
 }

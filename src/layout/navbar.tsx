@@ -37,7 +37,7 @@ export default function NavBar() {
 
         <Link
           to={"#"}
-          className=" p-2 bg-green-600 rounded-lg shadow-lg shadow-yellow-400 px-4 animate-bounce"
+          className=" p-2 gradient-style-1 rounded-lg shadow-lg shadow-yellow-400 px-4 animate-bounce"
         >
           Tap to swipe
         </Link>
