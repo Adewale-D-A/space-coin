@@ -20,61 +20,34 @@ export default function Home() {
               title="logo"
               className=" w-60 h-auto rounded-md"
             />
-            <div className=" max-w-screen-xl w-full px-5 md:px-10 flex flex-col items-end justify-end text-center text-white">
+            <div className=" max-w-screen-xl w-full px-5 md:px-10 flex flex-col items-center text-center text-white">
               <h1 className=" text-5xl md:text-7xl font-bold  max-w-2xl text-shadow drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
-                Hi, I'm Larva Meme
+                Hi, I'm Parrot Meme
               </h1>
-              <p>
-                -Halloween is almost here, join us and our pets in celebrating
-                our favorite global holiday!
+              <p className=" text-2xl text-gray-200 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
+                Meet the ultimate trendsetter of the tropical world. This
+                elegant parrot is here to show you that fashion isn’t just for
+                humans! With colors so vivid you’d think she dove into a
+                rainbow, this bird isn’t just a pretty face; she’s dripping with
+                personality and sass.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-yellow-300 text-primary-500 py-20 mt-20  flex justify-center md:px-20 px-10">
+      <section className="gradient-style-1 text-white py-20 mt-20  flex justify-center md:px-20 px-10">
         <div className="max-w-[1500px] w-full ">
           <div className=" text-center flex justify-center items-center flex-col w-full mb-16">
             <h2 className="font-semibold text-4xl md:text-6xl my-3">
-              Costume Contest Details!
+              Parrot Meme
             </h2>
             <p className="max-w-2xl font-light text-3xl">
-              Submit your IRL pet(s) Halloween costume(s) for a chance to win a
-              USDC prize! Join the TG to submit your entry :)
+              She's the jungle’s very own party starter. Rocking oversized, neon
+              shades with a flower accessory that screams “vacation mode on,”
+              this bird is the definition of chill vibes. She's got that “I only
+              fly first class” look, perched coolly like she's on her way to a
+              beachside fiesta with endless piña coladas.
             </p>
-          </div>
-          <div className="flex flex-col md:flex-row justify-between gap-10 items-stretch flex-wrap">
-            {[
-              {
-                bgImageClass: "one-bg",
-                title: "1st Place:",
-                content: "$500 USDC",
-              },
-              {
-                bgImageClass: "two-bg",
-                title: "2nd Place:",
-                content: "$250 USDC",
-              },
-              {
-                bgImageClass: "three-bg",
-                title: "3rd Place:",
-                content: "$100 USDC",
-              },
-            ].map((item, index) => {
-              return (
-                <div
-                  key={index}
-                  className={` flex-1 flex justify-center flex-col rounded-lg shadow-lg p-6 pb-10 bg-left-top bg-no-repeat ${item.bgImageClass}`}
-                >
-                  <h5 className="font-semibold text-2xl md:text-3xl my-4">
-                    {item.title}
-                  </h5>
-                  <p className=" font-light text-4xl md:text-6xl">
-                    {item.content}
-                  </p>
-                </div>
-              );
-            })}
           </div>
         </div>
       </section>
@@ -82,14 +55,14 @@ export default function Home() {
         <div className=" w-full max-w-screen-xl flex flex-col gap-12">
           <div className=" max-w-screen-lg w-full">
             <h2 className="font-semibold text-4xl md:text-6xl my-3">
-              Larva Meme COMMUNITY
+              Parrot Meme COMMUNITY
             </h2>
             <p className=" text-2xl md:text-3xl">
-              In the end, what really matters is the strength of the community.
-              That’s why we focus on building a united, proactive group that
-              grows together. By fostering long-term bonds, we elevate the
-              project to a top-tier memecoin. Join our community on Telegram or
-              Twitter, and let’s thrive as one.
+              She's also the suave beachgoer, sporting sleek black shades that
+              could make any Hollywood starlet jealous. This one knows how to
+              turn heads and make feathers fluff! Her plumage is a full-color
+              gradient of tropical vibes, from sizzling reds and oranges to cool
+              blues and greens, making it the bird everyone wants a selfie with.
             </p>
           </div>
           <div className=" w-full flex flex-col gap-10">
@@ -167,6 +140,11 @@ export default function Home() {
               ))}
             </div>
           </div>
+          <p className=" text-2xl md:text-3xl">
+            If you’ve ever wondered what it would look like if parrots took over
+            fashion week, here’s your answer. This parrot isn’t just a bird;
+            she’s an icon, a legend, and the meme hero we didn’t know we needed.
+          </p>
         </div>
       </section>
     </main>
