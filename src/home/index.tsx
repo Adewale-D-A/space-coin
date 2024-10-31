@@ -22,7 +22,7 @@ export default function Home() {
             />
             <div className=" max-w-screen-xl w-full px-5 md:px-10 flex flex-col items-center text-center text-white">
               <h1 className=" text-5xl md:text-7xl font-bold  max-w-2xl text-shadow drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
-                Hi, I'm Parrot Meme
+                Hi, I'm Parroty
               </h1>
               <p className=" text-2xl text-gray-200 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1)]">
                 Meet the ultimate trendsetter of the tropical world. This
@@ -38,9 +38,7 @@ export default function Home() {
       <section className="gradient-style-1 text-white py-20 mt-20  flex justify-center md:px-20 px-10">
         <div className="max-w-[1500px] w-full ">
           <div className=" text-center flex justify-center items-center flex-col w-full mb-16">
-            <h2 className="font-semibold text-4xl md:text-6xl my-3">
-              Parrot Meme
-            </h2>
+            <h2 className="font-semibold text-4xl md:text-6xl my-3">Parroty</h2>
             <p className="max-w-2xl font-light text-3xl">
               She's the jungle’s very own party starter. Rocking oversized, neon
               shades with a flower accessory that screams “vacation mode on,”
@@ -55,7 +53,7 @@ export default function Home() {
         <div className=" w-full max-w-screen-xl flex flex-col gap-12">
           <div className=" max-w-screen-lg w-full">
             <h2 className="font-semibold text-4xl md:text-6xl my-3">
-              Parrot Meme COMMUNITY
+              Parroty COMMUNITY
             </h2>
             <p className=" text-2xl md:text-3xl">
               She's also the suave beachgoer, sporting sleek black shades that

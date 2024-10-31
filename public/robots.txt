@@ -4,4 +4,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://larva.meme/sitemap.xml
+Sitemap: https://parroty.meme/sitemap.xml

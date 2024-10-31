@@ -1,6 +1,6 @@
 {
-  "short_name": "Parrot Meme",
-  "name": "Parrot Meme",
+  "short_name": "Parroty",
+  "name": "Parroty",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -22,5 +22,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "Parrot Meme - Your everyday meme"
+  "description": "Parroty - Your everyday meme"
 }
