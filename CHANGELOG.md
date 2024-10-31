@@ -1,5 +1,7 @@
 ##### 31.10.2024
 
+> Parroty name update
+> Images additions
 > Parrot meme
 
 ##### 10.10.2024

@@ -15,11 +15,7 @@ export default function Footer() {
               <div className="flex flex-col gap-5">
                 <span className="font-bold text-lg">Our Coin</span>
                 <div className="flex flex-col gap-5">
-                  {[
-                    { label: "Home", url: "#" },
-                    { label: "About", url: "#" },
-                    { label: "Contact", url: "#" },
-                  ].map((item, index) => {
+                  {[{ label: "Home", url: "#" }].map((item, index) => {
                     return (
                       <Link to={item.url} key={index}>
                         {item.label}
@@ -31,14 +27,6 @@ export default function Footer() {
             </div>
           </div>
           <div className="mt-16 mb-5 flex flex-col gap-5 md:gap-0 md:flex-row justify-center md:justify-between text-sm">
-            <p>
-              <Link
-                to={"https://my-portfolio-eight-pi-71.vercel.app/"}
-                target="_blank"
-              >
-                © 2024. Mindwalks
-              </Link>
-            </p>
             <div className=" flex items-center gap-3 mt-6">
               <Link
                 to="#"
