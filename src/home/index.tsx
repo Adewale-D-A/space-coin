@@ -122,7 +122,7 @@ export default function Home() {
                 },
                 {
                   id: 5,
-                  link: "https://x.com/parroty_fun",
+                  link: "https://x.com/ParrotySOL",
                   label: "X/Twitter",
                   icon: <Twitter className=" size-16" />,
                   classname: " bg-black",

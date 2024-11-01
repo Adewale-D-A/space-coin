@@ -38,7 +38,7 @@ export default function Footer() {
                 <span>Telegram</span>
               </Link>
               <Link
-                to="https://x.com/parroty_fun"
+                to="https://x.com/ParrotySOL"
                 target="_blank"
                 rel="noreferrer"
                 className=" border rounded-full p-3 bg-black shadow-lg shadow-yellow-300 hover:shadow-green-500 hover:scale-125 transition-all  whitespace-nowrap flex items-center gap-2"
