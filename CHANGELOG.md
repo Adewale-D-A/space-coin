@@ -1,3 +1,7 @@
+##### 01.11.2024
+
+> Twitter link addition
+
 ##### 31.10.2024
 
 > Parroty name update
