@@ -168,6 +168,43 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <section className="flex text-white justify-center flex-col items-center gap-28 md:px-20 px-10 mt-20 pb-5 my-16">
+        <div className=" w-full max-w-screen-xl flex flex-col gap-12">
+          <div className=" flex items-center gap-6 flex-col md:flex-row justify-center">
+            <img
+              src="/media/parrot_meme/other_2.jpg"
+              alt="logo"
+              title="logo"
+              className=" w-60 h-auto rounded-md"
+            />
+            <div className=" max-w-screen-lg w-full">
+              <h2 className="font-semibold text-4xl md:text-6xl my-3">
+                Parroty COMMUNITY
+              </h2>
+              <p className=" text-2xl md:text-3xl">
+                She's also the suave beachgoer, sporting sleek black shades that
+                could make any Hollywood starlet jealous. This one knows how to
+                turn heads and make feathers fluff! Her plumage is a full-color
+                gradient of tropical vibes, from sizzling reds and oranges to
+                cool blues and greens, making it the bird everyone wants a
+                selfie with.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>{" "}
+      <section className="flex bg-orange-200 text-white justify-center flex-col items-center gap-28 md:px-20 px-10 py-16 mt-16">
+        <div className=" w-full max-w-screen-xl flex flex-col items-center gap-4">
+          {/* disclaimer */}
+          <h2 className="font-semibold text-center text-3xl my-3 text-red-700">
+            Disclaimer:
+          </h2>
+          <p className=" text-2xl text-center max-w-screen-md text-primary-500">
+            This website is for entertainment only. Meme coins are risky, so
+            DYOR and only investment what you can afford to lose.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }

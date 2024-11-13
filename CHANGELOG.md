@@ -1,3 +1,7 @@
+##### 11.11.2024
+
+> Disclaimer addition
+
 ##### 01.11.2024
 
 > Twitter link addition
